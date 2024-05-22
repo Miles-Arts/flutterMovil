@@ -9,7 +9,7 @@ void main() {
   
   myName.toUpperCase();
   
-  //Interpolaicón de Strings
+  //Interpolación de Strings unir un String con una función con String
   print( "Hola me llamo $myName $myLastName ");
   print("Mi edad es: $edad");
   print("Alerta...: ${ texto.toUpperCase() }");
