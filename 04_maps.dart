@@ -11,10 +11,8 @@ void main() {
     'abilities': <String>['impostor'],
     'sprites': {
       1: 'ditto/front.png',
-      2: 'ditto/back.png'
-      
+      2: 'ditto/back.png' 
     }
-    
   };
   /*
   final pokemons = {
@@ -24,11 +22,10 @@ void main() {
     
   */
   
-  
   print(pokemon);
   print('Name: ${ pokemon['name'] }');
   print('Name: ${ pokemon['sprites'] }');
-  print('Back; ${ pokemon['sprites'[1]]}');
-  print('Front; ${ pokemon['sprites'[1]]}');
+  print('Back: ${ pokemon['sprites'][1] }');
+  print('Front: ${ pokemon['sprites'][1] }');
   
 }
