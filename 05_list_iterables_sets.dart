@@ -12,7 +12,17 @@ void main() {
   
   print('Index 10: ${numbers[10]} ');
 
+    //Primer valor de la LIST
+  print('Index Primero: ${numbers.first} ');
+  
+  //Último de la LIST
+  print('Index Último: ${numbers.last} ');
+  
+  print('De atrás hacia delante: ${numbers.reversed} ');
 
+  final reversedNumber = numbers.reversed;
+  
+  print(reversedNumber);
 
   
 }
