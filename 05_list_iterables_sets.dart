@@ -20,9 +20,35 @@ void main() {
   
   print('De atrás hacia delante: ${numbers.reversed} ');
 
+  //ITERABLE colección que se lee de manera secuencial
   final reversedNumber = numbers.reversed;
+  //ITERABLE colección que se lee de manera secuencial
+  print('Iterable: ${ reversedNumber } ');
   
-  print(reversedNumber);
+  //Se puede volver a crear la LIST desde ITERABLE
+  print('List: ${ reversedNumber.toList() } ');
 
+  //SET no muestra los valores repetidos
+  print('SET: ${ reversedNumber.toSet() } ');
+  
+  
+  
+  
+  //WHERE sirve para mostrar números mayores del NUM indicado  
+  final numbersGeaterThan5 = numbers.where(( int num ){
+    
+    return num > 5;
+    
+  });
+  
+    print('ITERABLE Mayor a 5: $numbersGeaterThan5');
+  
+  print('LIST Mayor a 5: ${numbersGeaterThan5.toList() }');
+  
+    print('SET - Mayor a 5: ${numbersGeaterThan5.toSet() }');
+  
+  //ITERABLe se muestrar en parentesis
+  
+  
   
 }
